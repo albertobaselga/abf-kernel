@@ -1,0 +1,11 @@
+[package]
+name = "abf_kernel"
+version = "0.1.0"
+authors = ["Alberto Baselga"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+rlibc = "0.1.4"
+spin = "0.3.4"
